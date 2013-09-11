@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.lexiscn.search.ModuleSimpleSearch">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="promulgatorRecognition"/>
+          <include name="articleNumberRecognition"/>
+        </methods>
+      </class> <!-- com.lexiscn.search.ModuleSimpleSearch -->
+      <class name="com.lexiscn.search.HomepageSearch">
+        <methods>
+          <include name="didYouMean" invocation-numbers="3 4 5 6 7 8"/>
+          <include name="promulgatorRecognition" invocation-numbers="0 1"/>
+          <include name="articleNumberRecognition" invocation-numbers="0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17"/>
+          <include name="before"/>
+        </methods>
+      </class> <!-- com.lexiscn.search.HomepageSearch -->
+      <class name="com.lexiscn.search.LandingPageSearch">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="promulgatorRecognition"/>
+          <include name="articleNumberRecognition"/>
+        </methods>
+      </class> <!-- com.lexiscn.search.LandingPageSearch -->
+      <class name="com.lexiscn.search.LNCSimpleSearch">
+        <methods>
+          <include name="before"/>
+          <include name="articleNumberRecognition"/>
+          <include name="promulgatorRecognition"/>
+          <include name="testKeywords"/>
+        </methods>
+      </class> <!-- com.lexiscn.search.LNCSimpleSearch -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
