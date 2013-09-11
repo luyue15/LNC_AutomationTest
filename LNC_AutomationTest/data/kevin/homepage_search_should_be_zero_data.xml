@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 列表的这些关键词搜索结果应该为零 -->
+<!-- keyword为输入的关键词 -->
+<testdata>
+  <data searchway="url">
+    <url>/index.php?access=search_result&amp;lang=cn&amp;search_keyword=%3F%3F%A8%A8%3F%3F&amp;engine_type=</url>
+  </data>
+</testdata>

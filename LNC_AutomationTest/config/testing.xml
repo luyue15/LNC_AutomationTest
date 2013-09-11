@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test">
+    <classes>
+      <!-- homepage测试 -->
+      <!-- <class name="com.lexiscn.Homepage"/> -->
+      
+      <!-- test homepage search -->
+     <class name="com.lexiscn.search.HomepageSearch">
+       <methods>
+         <include name="didYouMean"/>
+         <include name="articleNumberRecognition"/>
+         <include name="promulgatorRecognition"/>
+         <!-- <include name="searchShouldBeZero"/> -->
+       </methods>
+     </class>
+      
+      <!-- landing page搜索 -->
+      <class name="com.lexiscn.search.LandingPageSearch">
+        <methods>
+          <include name="articleNumberRecognition"/>
+          <include name="promulgatorRecognition"/>
+        </methods>
+      </class>
+      
+      <!-- LNC简单搜索 -->
+      <class name="com.lexiscn.search.LNCSimpleSearch">
+        <methods>
+          <include name="testKeywords"/>
+          <include name="articleNumberRecognition"/>
+          <include name="promulgatorRecognition"/>
+        </methods>
+      </class>
+      
+      <!-- 专题简单搜索 -->
+      <class name="com.lexiscn.search.ModuleSimpleSearch">
+        <methods>
+          <include name="articleNumberRecognition"/>
+          <include name="promulgatorRecognition"/>
+        </methods>
+      </class>
+      
+      <!-- <class name="com.lexiscn.Complete"/> -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

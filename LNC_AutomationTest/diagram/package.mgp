@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PackageAnalysis>
+    <Package name="com.lexiscn" x="253" y="216"/>
+    <Package name="com.lexiscn.search" x="215" y="308">
+        <DependencyLink destination="com.lexiscn"/>
+    </Package>
+</PackageAnalysis>

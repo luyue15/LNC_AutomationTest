@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- inside简单搜索(除了homepage)的测试数据 -->
+<!-- keyword为输入的关键词 -->
+<!-- expect是期望的前N个搜索结果，按顺序排序。{N|0<N<=10} -->
+<testdata>
+  <data>
+    <keyword>公司法</keyword>
+    <expect>中华人民共和国公司法（2005年修订）</expect>
+    <expect>中华人民共和国公司法（2004年修订）</expect>
+    <expect>中华人民共和国公司法（1999修订本）</expect>
+    <expect>中华人民共和国公司法</expect>
+    <expect>最高人民法院关于适用《中华人民共和国公司法》若干问题的规定（一）</expect>
+  </data>
+  <data>
+    <keyword>公司法 2005</keyword>
+    <expect>中华人民共和国公司法（2005年修订）</expect>
+  </data>
+  <data>
+    <keyword>刑法</keyword>
+    <expect>中华人民共和国刑法（1997年版）</expect>
+    <expect>中华人民共和国刑法</expect>
+    <expect>中华人民共和国刑法修正案（八）</expect>
+  </data>
+  <data>
+  	<keyword>所得税</keyword>
+  	<expect>中华人民共和国个人所得税法（2011年修订）</expect>
+  </data>
+  <data>
+  	<keyword>反洗钱</keyword>
+  	<expect>中华人民共和国反洗钱法</expect>
+  </data>
+  <data>
+  	<keyword>勞動法</keyword>
+  	<expect>中华人民共和国劳动法</expect>
+  </data>
+  <data>
+  	<keyword>企業所得稅</keyword>
+  	<expect>中华人民共和国企业所得税法</expect>
+  </data>
+  <data>
+  	<keyword>投资总额 + 注册资本</keyword>
+  	<expect>国务院办公厅关于中外合资经营企业注册资本与投资总额比例问题的规定</expect>
+  	<expect>对外贸易经济合作部、国家工商行政管理局关于外商投资企业调整投资总额和注册资本有关法规及程序的通知</expect>
+  </data>
+  <data>
+  	<keyword>– 与 财政部 与 国家税务总局关于石油企业在境外从事油（气）资源开采所得税收抵免有关问题的通知</keyword>
+  	<expect>财政部 国家税务总局关于我国石油企业在境外从事油（气）资源开采所得税收抵免有关问题的通知</expect>
+  </data>
+  <data>
+  	<keyword>(– 与 财政部 与 国家税务总局关于石油企业在境外从事油（气）资源开采所得税收抵免有关问题的通知)</keyword>
+  	<expect>财政部 国家税务总局关于我国石油企业在境外从事油（气）资源开采所得税收抵免有关问题的通知</expect>
+  </data>
+</testdata>

@@ -1,0 +1,30 @@
+TestNG + Selenium for LNC Automation testing.
+
+1. Dependency.
+Ant (http://ant.apache.org/)
+Firefox (http://www.mozilla.org/)
+Eclipse (http://www.eclipse.org)
+GEF (http://www.eclipse.org/gef/‎)
+Green UML (http://green.sourceforge.net/)
+
+2. How to use.
+Rename config/config.sample.xml to config/config.xml, and change the each item to yours. 
+It is simple to kown the means of each section. 
+Change config/testing.xml configure test suites/classes/methods.
+
+3. How to run.
+Change dir to the project root path, then type ant and ENTER.
+
+4. Dir structure.
+src: source.
+config: config files and testNG testing suite xml files
+data: test data. data in xml format file placed in subdir with name which defined in config.xml environment section.
+diagram: Class UML diagram.
+lib: libraries.
+logs: application log.
+test-output: testNG report output. when you specify an environment in ant arguments with -D like -Denvironment=alpha, the sub dir will be create with ${environment} named.
+test-reports: report in JUnit format.
+testing: containing test program which test anything.
+
+contact:
+kittymiky@gmail.com

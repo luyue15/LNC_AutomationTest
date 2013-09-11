@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- article number recognition -->
+<!-- keyword为输入的关键词 -->
+<!-- expect是期望的前N个搜索结果，按顺序排序。{N|0<N<=10} -->
+<!-- data的match属性表示: 期望跟结果完全相同 -->
+<!-- data的match可以取下列值，默认为top：exact, top -->
+<testdata>
+  <data match="exact">
+    <keyword>国税发[1996]18号</keyword>
+    <expect>国家税务总局关于在国家税务系统选派干部到西藏工作的通知</expect>
+    <expect>大连市国家税务局发票工本管理费管理制度</expect>
+  </data>
+  <data match="exact">
+    <keyword>国税发1996 18号</keyword>
+    <expect>国家税务总局关于在国家税务系统选派干部到西藏工作的通知</expect>
+    <expect>大连市国家税务局发票工本管理费管理制度</expect>
+  </data>
+  <data match="exact">
+    <keyword>国税发1996 18号文</keyword>
+    <expect>国家税务总局关于在国家税务系统选派干部到西藏工作的通知</expect>
+    <expect>大连市国家税务局发票工本管理费管理制度</expect>
+  </data>
+  <data match="exact">
+    <keyword>国税发1996 18</keyword>
+    <expect>国家税务总局关于在国家税务系统选派干部到西藏工作的通知</expect>
+    <expect>大连市国家税务局发票工本管理费管理制度</expect>
+  </data>
+  <data match="exact">
+    <keyword>国税发[1996]18</keyword>
+    <expect>国家税务总局关于在国家税务系统选派干部到西藏工作的通知</expect>
+    <expect>大连市国家税务局发票工本管理费管理制度</expect>
+  </data>
+  <data match="exact">
+    <keyword>国税发[1996]18号文</keyword>
+    <expect>国家税务总局关于在国家税务系统选派干部到西藏工作的通知</expect>
+    <expect>大连市国家税务局发票工本管理费管理制度</expect>
+  </data>
+  <data match="exact">
+    <keyword>国税发[1996]第18号</keyword>
+    <expect>国家税务总局关于在国家税务系统选派干部到西藏工作的通知</expect>
+    <expect>大连市国家税务局发票工本管理费管理制度</expect>
+  </data>
+  <data match="exact">
+    <keyword>国税发[1996]第18号文</keyword>
+    <expect>国家税务总局关于在国家税务系统选派干部到西藏工作的通知</expect>
+    <expect>大连市国家税务局发票工本管理费管理制度</expect>
+  </data>
+  <data match="exact">
+    <keyword>国税发(1996)18</keyword>
+    <expect>国家税务总局关于在国家税务系统选派干部到西藏工作的通知</expect>
+    <expect>大连市国家税务局发票工本管理费管理制度</expect>
+  </data>
+  <data match="exact">
+    <keyword>国税发(1996)18号文</keyword>
+    <expect>国家税务总局关于在国家税务系统选派干部到西藏工作的通知</expect>
+    <expect>大连市国家税务局发票工本管理费管理制度</expect>
+  </data>
+  <data match="exact">
+    <keyword>国税发(1996)第18号</keyword>
+    <expect>国家税务总局关于在国家税务系统选派干部到西藏工作的通知</expect>
+    <expect>大连市国家税务局发票工本管理费管理制度</expect>
+  </data>
+  <data match="exact">
+    <keyword>国税发(1996)第18号文</keyword>
+    <expect>国家税务总局关于在国家税务系统选派干部到西藏工作的通知</expect>
+    <expect>大连市国家税务局发票工本管理费管理制度</expect>
+  </data>
+  <data>
+    <keyword>国税发1996</keyword>
+    <expect>国家税务总局关于出境口岸免税店经营国产品试行退（免）税办法的通知</expect>
+    <expect>国家税务总局关于进一步加强涉外税收理工作的意见</expect>
+    <expect>国家税务总局关于摩托车行业消费税政策执行情况检查的通报</expect>
+    <expect>西安市国家税务局关于印发《消费税纳税申报表》的通知</expect>
+    <expect>国家税务总局关于1995年度出口货物税收检查情况的通知</expect>
+  </data>
+  <data>
+    <keyword>国税发[1996]</keyword>
+    <expect>国家税务总局关于出境口岸免税店经营国产品试行退（免）税办法的通知</expect>
+    <expect>国家税务总局关于进一步加强涉外税收理工作的意见</expect>
+    <expect>国家税务总局关于摩托车行业消费税政策执行情况检查的通报</expect>
+    <expect>西安市国家税务局关于印发《消费税纳税申报表》的通知</expect>
+    <expect>国家税务总局关于1995年度出口货物税收检查情况的通知</expect>
+  </data>
+  <data>
+    <keyword>国税发(1996)</keyword>
+    <expect>国家税务总局关于出境口岸免税店经营国产品试行退（免）税办法的通知</expect>
+    <expect>国家税务总局关于进一步加强涉外税收理工作的意见</expect>
+    <expect>国家税务总局关于摩托车行业消费税政策执行情况检查的通报</expect>
+    <expect>西安市国家税务局关于印发《消费税纳税申报表》的通知</expect>
+    <expect>国家税务总局关于1995年度出口货物税收检查情况的通知</expect>
+  </data>
+  <data>
+    <keyword>国税发 18</keyword>
+    <expect>国家税务总局关于修订增值税专用发票使用规定的补充通知</expect>
+    <expect>国家税务总局关于做好配合检察机关开展集中查办破坏社会主义市场经济秩序渎职犯罪专项工作的通知</expect>
+    <expect>国家税务总局关于国家税务局为小规模纳税人代开发票及税款征收有关问题的通知</expect>
+    <expect>国家税务总局关于印发《国家税务局系统基本建设项目审批管理办法》的通知</expect>
+    <expect>国家税务总局关于发布《增值税防伪税控主机共享服务系统管理暂行办法》的通知</expect>
+  </data>
+  <data>
+    <keyword>国税发 18号</keyword>
+    <expect>国家税务总局关于修订增值税专用发票使用规定的补充通知</expect>
+    <expect>国家税务总局关于做好配合检察机关开展集中查办破坏社会主义市场经济秩序渎职犯罪专项工作的通知</expect>
+    <expect>国家税务总局关于国家税务局为小规模纳税人代开发票及税款征收有关问题的通知</expect>
+    <expect>国家税务总局关于印发《国家税务局系统基本建设项目审批管理办法》的通知</expect>
+    <expect>国家税务总局关于发布《增值税防伪税控主机共享服务系统管理暂行办法》的通知</expect>
+  </data>
+  <data>
+    <keyword>国税发 18号文</keyword>
+    <expect>国家税务总局关于修订增值税专用发票使用规定的补充通知</expect>
+    <expect>国家税务总局关于做好配合检察机关开展集中查办破坏社会主义市场经济秩序渎职犯罪专项工作的通知</expect>
+    <expect>国家税务总局关于国家税务局为小规模纳税人代开发票及税款征收有关问题的通知</expect>
+    <expect>国家税务总局关于印发《国家税务局系统基本建设项目审批管理办法》的通知</expect>
+    <expect>国家税务总局关于发布《增值税防伪税控主机共享服务系统管理暂行办法》的通知</expect>
+  </data>
+</testdata>

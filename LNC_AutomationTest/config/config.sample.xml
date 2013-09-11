@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <!-- 定义使用的环境 -->
+  <environment>kevin</environment>
+  <!-- 使用哪个浏览器测试:firefix, chrome, ie, opera。暂时只支持firefox -->
+  <browser>firefox</browser>
+  <phpsessid>54u475pgo0pjdhf1f82n8t3o14</phpsessid>
+  <uuid>51a4089a-45a9340-kevin1|4ea77c05-25f3d20-kevin1|500cee04-507d208-kevin1|50122d83-51ee9c0-hilda|5189f918-16d242c-kevinjiang|5189f918-16d242c-kevinjiang|5189fa79-5dda838-kevinjiang</uuid>
+  <timeout>60</timeout>
+  <envs>
+    <env name="kevin">
+      <host>http://kevin5.lexisnexis.com.cn</host>
+      <username>kevin1</username>
+      <password>qwe123</password>
+    </env>
+    <env name="alpha">
+      <host>http://alpha.lexisnexis.com.cn</host>
+      <username>kevin1</username>
+      <password>qwe123</password>
+    </env>
+  </envs>
+</config>

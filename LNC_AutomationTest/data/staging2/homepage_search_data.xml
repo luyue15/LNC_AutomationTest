@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 搜索的测试数据 -->
+<!-- keyword为输入的关键词 -->
+<!-- expect是期望的前N个搜索结果，按顺序排序。{N|0<N<=10} -->
+<testdata>
+  <data>
+    <keyword>公司法</keyword>
+    <expect>最高人民法院关于适用《中华人民共和国公司法》若干问题的规定（一）</expect>
+    <expect>中华人民共和国公司法（2005年修订）</expect>
+    <expect>中华人民共和国公司法（2004年修订）</expect>
+  </data>
+  <data>
+    <keyword>刑法</keyword>
+    <expect>中华人民共和国刑法（1997年版）</expect>
+    <expect>中华人民共和国刑法</expect>
+  </data>
+</testdata>

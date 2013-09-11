@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ClassDiagram>
+    <Class name="com.lexiscn.Homepage" x="168" y="113">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="com.lexiscn.LexiscnWebDriver"/>
+        <Communication destinationClassName="com.lexiscn.LexiscnWebDriver"/>
+    </Class>
+    <Class name="com.lexiscn.SearchDataProvider" x="1146" y="539">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="com.lexiscn.search.ModuleSimpleSearch" x="483" y="379">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="com.lexiscn.LexiscnWebDriver"/>
+        <Association
+            destinationClassName="com.lexiscn.SearchDataProvider"
+            endpointName="anrdp" kind="Simple"/>
+        <Association
+            destinationClassName="com.lexiscn.SearchDataProvider"
+            endpointName="promulgatordp" kind="Simple"/>
+        <Communication destinationClassName="com.lexiscn.SearchDataProvider"/>
+        <Communication destinationClassName="com.lexiscn.LexiscnWebDriver"/>
+        <Communication destinationClassName="com.lexiscn.Config"/>
+    </Class>
+    <Class name="com.lexiscn.search.MiniPageSearch" x="58" y="249">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="com.lexiscn.search.AdvancedSearch"/>
+        <Communication destinationClassName="com.lexiscn.search.AdvancedSearch"/>
+    </Class>
+    <Class name="com.lexiscn.search.LNCSimpleSearch" x="233" y="538">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="com.lexiscn.LexiscnWebDriver"/>
+        <Association
+            destinationClassName="com.lexiscn.SearchDataProvider"
+            endpointName="anrdp" kind="Simple"/>
+        <Association
+            destinationClassName="com.lexiscn.SearchDataProvider"
+            endpointName="sdp" kind="Simple"/>
+        <Association
+            destinationClassName="com.lexiscn.SearchDataProvider"
+            endpointName="promulgatordp" kind="Simple"/>
+        <Communication destinationClassName="com.lexiscn.SearchDataProvider"/>
+        <Communication destinationClassName="com.lexiscn.LexiscnWebDriver"/>
+        <Communication destinationClassName="com.lexiscn.Config"/>
+    </Class>
+    <Class name="com.lexiscn.search.LandingPageSearch" x="598" y="152">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="com.lexiscn.LexiscnWebDriver"/>
+        <Association
+            destinationClassName="com.lexiscn.SearchDataProvider"
+            endpointName="anrdp" kind="Simple"/>
+        <Association
+            destinationClassName="com.lexiscn.SearchDataProvider"
+            endpointName="promulgatordp" kind="Simple"/>
+        <Communication destinationClassName="com.lexiscn.SearchDataProvider"/>
+        <Communication destinationClassName="com.lexiscn.LexiscnWebDriver"/>
+        <Communication destinationClassName="com.lexiscn.Config"/>
+    </Class>
+    <Class name="com.lexiscn.Complete" x="87" y="22">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="com.lexiscn.LexiscnWebDriver"/>
+    </Class>
+    <Class name="com.lexiscn.search.HomepageSearch" x="916" y="24">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="com.lexiscn.LexiscnWebDriver"/>
+        <Association
+            destinationClassName="com.lexiscn.SearchDataProvider"
+            endpointName="ssbzdp" kind="Simple"/>
+        <Association
+            destinationClassName="com.lexiscn.SearchDataProvider"
+            endpointName="dymdp" kind="Simple"/>
+        <Association
+            destinationClassName="com.lexiscn.SearchDataProvider"
+            endpointName="anrdp" kind="Simple"/>
+        <Association
+            destinationClassName="com.lexiscn.SearchDataProvider"
+            endpointName="sdp" kind="Simple"/>
+        <Association
+            destinationClassName="com.lexiscn.SearchDataProvider"
+            endpointName="promulgatordp" kind="Simple"/>
+        <Communication destinationClassName="com.lexiscn.SearchDataProvider"/>
+        <Communication destinationClassName="com.lexiscn.LexiscnWebDriver"/>
+        <Communication destinationClassName="com.lexiscn.Config"/>
+    </Class>
+    <Class name="com.lexiscn.LexiscnWebDriver" x="384" y="31">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Association destinationClassName="com.lexiscn.Config"
+            endpointName="globalConfig" kind="Simple"/>
+        <Association destinationClassName="com.lexiscn.Config"
+            endpointName="config" kind="Simple"/>
+        <Communication destinationClassName="com.lexiscn.Config"/>
+    </Class>
+    <Class name="com.lexiscn.Config" x="707" y="15">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="com.lexiscn.search.AdvancedSearch" x="244" y="225">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="com.lexiscn.LexiscnWebDriver"/>
+        <Communication destinationClassName="com.lexiscn.LexiscnWebDriver"/>
+    </Class>
+</ClassDiagram>

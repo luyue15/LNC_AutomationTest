@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 列表的这些关键词搜索结果应该为零 -->
+<!-- keyword为输入的关键词 -->
+<testdata>
+  <data searchway="url">
+    <url>/lnc/simpleSearch.php?act=result&amp;searchType=law%7Clawpic%7Ccase%7Cip_hottopic%7Cmodule_guide%7Cmodule_contract%7Cep_elearning%7Cex_questions%7Cip_news%2Bep_news%2Bbiz_news%7Cep_news_law%2Bep_news_case%7Coverview%7CcaseCourt%7Cnewlaw%7Ccommentary%7Cdtt%7Cjournal%7CprofNewsletter%7Cnewsletter%7Ccontract%7Cpgl_content%7Cexpert%7Chotnews%7Cforeignlaw&amp;all=all&amp;lang=&amp;keyword=%3F%3F%A8%A8%3F</url>
+  </data>
+</testdata>

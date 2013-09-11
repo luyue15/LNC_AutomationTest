@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test">
+    <classes>
+      <!-- landing page搜索 -->
+      <class name="com.lexiscn.search.LandingPageSearch">
+        <methods>
+          <!-- <include name="articleNumberRecognition"/> -->
+          <!-- <include name="promulgatorRecognition"/> -->
+          <include name="searchPerformance"/>
+        </methods>
+      </class>
+      
+      <!-- <class name="com.lexiscn.Complete"/> -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

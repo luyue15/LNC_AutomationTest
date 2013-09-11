@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- did you mean的测试数据 -->
+<!-- keyword为输入的关键词 -->
+<!-- expect是期望的前N个搜索结果，按顺序排序。{N|0<N<=10} -->
+<testdata>
+  <data>
+    <keyword>国办涵</keyword>
+    <expect>国办函</expect>
+  </data>
+  <data>
+    <keyword>担保发 解释</keyword>
+    <expect>担保法 解释</expect>
+  </data>
+  <data>
+    <keyword>中华人民共和国营业税暂时条例</keyword>
+    <expect>中华人民共和国营业税暂行条例</expect>
+  </data>
+  <data>
+    <keyword>公司发</keyword>
+    <expect>公司法</expect>
+  </data>
+  <data>
+    <keyword>固定资产贷款的暂时规定</keyword>
+    <expect>固定资产贷款管理暂行办法</expect>
+  </data>
+  <data>
+    <keyword>中外合资经营企业法实施细则</keyword>
+    <expect>中外合资经营企业法实施条例</expect>
+  </data>
+  <data>
+    <keyword>竞业限制</keyword>
+    <expect>竞业禁止</expect>
+  </data>
+  <data>
+    <keyword>围产假</keyword>
+    <expect>产前检查假</expect>
+  </data>
+  <data>
+    <keyword>对外投资</keyword>
+    <expect>境外投资</expect>
+  </data>
+</testdata>
